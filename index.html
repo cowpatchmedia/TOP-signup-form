@@ -42,33 +42,45 @@
             <div class="form-container"> 
                 Let's do this!
                 <div class='form-row-1'>
-                    <label for='first-name'>First Name</label>
-                    <input id='first-name' name='first-name' type='text'/>
+                    <div class="form-field">
+                        <label for='first-name'>First Name</label>
+                        <input id='first-name' name='first-name' type='text'/>
+                    </div>
 
-                    <label for='last-name'>Last Name</label>
-                    <input id='last-name' name='last-name' type='text'/>                    
+                    <div class="form-field">
+                        <label for='last-name'>Last Name</label>
+                        <input id='last-name' name='last-name' type='text'/>                    
+                    </div>
                 </div>
 
                 <div class='form-row-2'>
-                    <label for='email'>Email</label>
-                    <input id='email'
-                        name='email'
-                        type='email'
-                        placeholder='joe@example.com'/>
-                        
-                    <label for='phone'>Telephone</label>
-                    <input id='tel'
-                        name='phone'
-                        type='phone'
-                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                        placeholder="555-555-5555" />                
-                </div> 
-                <div class="form-row-3">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
+                    <div class="form-field">
+                        <label for='email'>Email</label>
+                        <input id='email'
+                            name='email'
+                            type='email'
+                            placeholder='joe@example.com'/>
+                    </div>
 
-                    <label for="confirm_password">Confirm Password:</label>
-                    <input type="password" id="confirm_password" name="confirm_password" required>
+                    <div class="form-field">        
+                        <label for='phone'>Telephone</label>
+                        <input id='tel'
+                            name='phone'
+                            type='phone'
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            placeholder="555-555-5555" />   
+                    </div>             
+                </div> 
+
+                <div class="form-row-3">
+                    <div class="form-field">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="confirm_password">Confirm Password:</label>
+                        <input type="password" id="confirm_password" name="confirm_password" required>
+                    </div>
                 </div>               
 
             </div>
