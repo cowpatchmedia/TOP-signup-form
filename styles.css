@@ -45,7 +45,7 @@
 }
 
 .instructions-container {
-    /* text-emphasis: bold; */
+    font-weight: bold;
 }
 
 .login-container {
