@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Norse";
+    src: url("media/Norse-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -13,6 +20,7 @@
 
 .overlay {
     position: absolute;
+    height: 20vh;
     bottom: 60%;
     left: 0;
     width: 100%;
@@ -28,6 +36,11 @@
 .overlay img {
     width: 20%;
     height: auto;
+}
+
+p {
+    font-family: "Norse", sans-serif;
+    font-size: clamp(18px, 12vw, 72px);
 }
 
 .text-section {
