@@ -34,9 +34,18 @@
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     padding-left: 20px;
+    height: 100vh;
+}
+
+.text-section > div {
+    flex: 1;
+}
+
+.instructions-container {
+    /* text-emphasis: bold; */
 }
 
 .login-container {
