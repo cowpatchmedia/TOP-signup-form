@@ -38,7 +38,7 @@
     height: auto;
 }
 
-p {
+.logo-text {
     font-family: "Norse", sans-serif;
     font-size: clamp(18px, 12vw, 72px);
 }
@@ -107,3 +107,5 @@ input {
     flex-direction: column;
     padding-top: 20px;
 }
+
+/* to do: button, js, let's do this! */
