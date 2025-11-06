@@ -46,6 +46,13 @@
 
 .instructions-container {
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desire {
+    padding-bottom: 40px;
 }
 
 .login-container {
