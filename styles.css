@@ -106,6 +106,22 @@ input {
     box-sizing: border-box;
 }
 
+input:invalid{
+    border-color: red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+}
+
+/* input:valid{
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.4);
+} */
+
+input:focus{
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255, 0.6);
+}
+
 .login-container {
     display: flex;
     flex-direction: column;
@@ -113,7 +129,10 @@ input {
 }
 
 .login-container button {
-    border-radius: 10px;
+    border-radius: 6px;
+    background-color: darkolivegreen;
+    color: white;
+    width: 150px;
 }
 
 /* to do: button, js, */
