@@ -75,6 +75,11 @@
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
+.form-text{
+    font-size: clamp(20px);
+    padding-bottom: 10px;
+}
+
 .form-row-1,
 .form-row-2,
 .form-row-3 {
@@ -101,11 +106,14 @@ input {
     box-sizing: border-box;
 }
 
-
 .login-container {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
 }
 
-/* to do: button, js, let's do this! */
+.login-container button {
+    border-radius: 10px;
+}
+
+/* to do: button, js, */
